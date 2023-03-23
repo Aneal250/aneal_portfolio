@@ -13,10 +13,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="relative">
+      <main>
         {/* Header Section */}
         <div class="block mb-6 md:flex">
-          <div class=" max-w-150">
+          <div class=" w-2/12">
             <a aria-current="page" class="" href="/">
               <img
                 class="w-[150px] rounded-full transform transition-all duration-150 hover:scale-105"
@@ -26,14 +26,14 @@ export default function Home() {
             </a>
           </div>
 
-          <div class="flex-none pt-6 md:pt-1 md:flex-1 md:pl-20">
+          <div class="flex-none pt-6 md:pt-1 md:flex-1 ">
             <h1 class="text-5xl text-gray-900 font-bold leading-tight hover:text-black">
               <a aria-current="page" class="" href="/">
                 Anaele Nnaemeka
               </a>
             </h1>
 
-            <p class="text-gray-600">Full-Stack Developer from Canada.</p>
+            <p class="text-gray-600">Full-Stack Developer</p>
             <ul class="mt-6 uppercase tracking-wider">
               <li class="inline list-none pr-4">
                 <a
@@ -65,19 +65,21 @@ export default function Home() {
         {/* About Me section */}
 
         <div class="block pt-12 md:flex">
-          <div class="pb-6  md:max-w-150 md:p-0">
-            <h2 class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase">
+          <div class="pb-6  md:p-0 w-2/12">
+            <h2 class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase text-right pr-20">
               About Me
             </h2>
           </div>
-          <div class="flex-none text-lg text-gray-600 font-light bg-white md:flex-1 md:pl-20">
+          <div class="flex-none text-lg text-gray-600 font-light bg-white md:flex-1 ">
             <div class="mb-6">
               <p>
-                I'm a motivated full-stack engineer who has experience building
-                and scaling web applications and services in various domains.
-                I'm also passionate about open-source contributions, working in
-                high impact environments, and contributing to growing
-                development teams by helping build great products.
+                Hi, I am a Software Engineer with extensive years of experience
+                in developing and building interactive web applications using
+                software Technologies such as HTML, CSS, JavaScript, React,
+                Redux, Nextjs, NodeJs, ExpressJs, CMS and MongoDB. I decompose
+                complex problems into logic and scalable UI components using
+                JavaScript and TypeScript frameworks to build cutting edge Web
+                Applications.
               </p>
             </div>
           </div>
@@ -85,12 +87,12 @@ export default function Home() {
 
         {/* experience */}
         <div class="block pt-12 md:flex">
-          <div class="pb-6  md:max-w-150 md:p-0">
-            <h2 class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase">
+          <div class="pb-6  w-2/12 md:p-0">
+            <h2 class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase text-right pr-20">
               Projects
             </h2>
           </div>
-          <div class="flex-none text-lg text-gray-600 font-light bg-white md:flex-1 md:pl-20">
+          <div class="flex-none text-lg text-gray-600 font-light bg-white md:flex-1 ">
             <div class="mb-6">
               <h3 class="font-semibold text-gray-900 pb-1 hover:underline hover:text-black">
                 <a href="https://standupwizard.com/?ref=portfolio">
@@ -146,12 +148,12 @@ export default function Home() {
 
         {/* The Blog */}
         <div class="block pt-12 md:flex">
-          <div class="pb-6  md:max-w-150 md:p-0">
-            <h2 class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase">
+          <div class="pb-6  w-2/12 md:p-0">
+            <h2 class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase text-right pr-20">
               Latest Posts
             </h2>
           </div>
-          <div class="flex-none text-lg text-gray-600 font-light bg-white md:flex-1 md:pl-20">
+          <div class="flex-none text-lg text-gray-600 font-light bg-white md:flex-1 ">
             <div class="mb-6">
               <h3 class="font-semibold text-gray-900 pb-1 hover:underline hover:text-black">
                 <a href="/blog/permanent-domain-redirect-aws/">
@@ -212,12 +214,12 @@ export default function Home() {
 
         {/* Skills */}
         <div class="block pt-12 md:flex">
-          <div class="pb-6  md:max-w-150 md:p-0">
-            <h2 class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase">
+          <div class="pb-6  w-2/12 md:p-0">
+            <h2 class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase text-right pr-20">
               Skills
             </h2>
           </div>
-          <div class="flex-none text-lg text-gray-600 font-light bg-white md:flex-1 md:pl-20">
+          <div class="flex-none text-lg text-gray-600 font-light bg-white md:flex-1 ">
             <div class="mb-6">
               <h3 class="font-semibold text-gray-900 pb-1 ">
                 Languages &amp; Frameworks
