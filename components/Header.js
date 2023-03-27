@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Header = () => {
+const Header = ({ blog }) => {
   return (
     <div class="block mb-6 md:flex">
       <div class=" w-2/12">
@@ -23,18 +23,30 @@ const Header = () => {
 
         <p class="text-gray-600">Full-Stack Developer</p>
         <ul class="mt-6 uppercase tracking-wider">
+          {blog && (
+            <li class="inline list-none pr-4">
+              <Link
+                href={"/"}
+                className="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
+              >
+                Profile
+              </Link>
+            </li>
+          )}
           <li class="inline list-none pr-4">
             <a
+              target="_blank"
               class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
-              href="https://twitter.com/@rfitzio"
+              href="https://twitter.com/Aneal250"
             >
               Twitter
             </a>
           </li>
           <li class="inline list-none pr-4">
             <a
+              target="_blank"
               class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
-              href="https://github.com/ryanfitzgerald"
+              href="https://github.com/Aneal250"
             >
               Github
             </a>
