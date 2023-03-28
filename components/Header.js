@@ -51,14 +51,16 @@ const Header = ({ blog }) => {
               Github
             </a>
           </li>
-          <li class="inline list-none pr-4">
-            <Link
-              href={"/blog/"}
-              class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
-            >
-              Blog
-            </Link>
-          </li>
+          {!blog && (
+            <li class="inline list-none pr-4">
+              <Link
+                href={"/blog/"}
+                class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
+              >
+                Blog
+              </Link>
+            </li>
+          )}
         </ul>
       </div>
     </div>
