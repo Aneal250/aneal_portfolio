@@ -6,7 +6,13 @@ const Footer = () => {
     <div className="mt-8 ">
       <hr className="mb-4" />
       <div className="flex justify-center">
-        <a className="link_styles">
+        <a
+          className="link_styles"
+          class="sc-VigVT kjCPS"
+          href="https://www.linkedin.com/in/anaelennaemeka/"
+          target="_blank"
+          data-reactid="20"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -29,7 +35,7 @@ const Footer = () => {
 
         <a
           class="sc-VigVT kjCPS"
-          href="https://github.com/ryanfitzgerald"
+          href="https://github.com/Aneal250"
           target="_blank"
           data-reactid="20"
         >
@@ -53,7 +59,7 @@ const Footer = () => {
         </a>
         <a
           class="sc-VigVT kjCPS"
-          href="https://github.com/ryanfitzgerald"
+          href="https://twitter.com/Aneal250"
           target="_blank"
           data-reactid="20"
         >

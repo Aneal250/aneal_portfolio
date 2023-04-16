@@ -5,13 +5,13 @@ const Header = ({ blog }) => {
   return (
     <div class="block mb-6 md:flex">
       <div class=" w-2/12">
-        <a aria-current="page" class="" href="/">
+        <Link aria-current="page" class="" href="/">
           <img
             class="w-[150px] rounded-full transform transition-all duration-150 hover:scale-105"
             src="/img/Aneal_emekaH.png"
             alt="Anaele_Nnamekea"
           />
-        </a>
+        </Link>
       </div>
 
       <div class="flex-none pt-6 md:pt-1 md:flex-1 ">
@@ -21,7 +21,7 @@ const Header = ({ blog }) => {
           </a>
         </h1>
 
-        <p class="text-gray-600">Full-Stack Developer</p>
+        <p class="text-gray-600">Frontend Software Engineer</p>
         <ul class="mt-6 uppercase tracking-wider">
           {blog && (
             <li class="inline list-none pr-4">

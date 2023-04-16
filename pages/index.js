@@ -95,6 +95,17 @@ export default function Home() {
           <div class="text-lg text-gray-600 font-light w-8/12">
             <div class="mb-6">
               <h3 class="font-semibold text-gray-900 pb-1  hover:text-black">
+                <a href="https://www.nexthandle.com/">Tinq Lab</a>
+              </h3>
+              <p class="text-md text-gray-600 font-light">
+                Frontend Engineer{" "}
+                <span className="pl-12 text-sm italic">March - Present</span>
+              </p>
+              <hr className="mt-4" />
+            </div>
+
+            <div class="mb-6">
+              <h3 class="font-semibold text-gray-900 pb-1  hover:text-black">
                 <a href="https://www.nexthandle.com/">Nexthandle</a>
               </h3>
               <p class="text-md text-gray-600 font-light">
@@ -137,7 +148,7 @@ export default function Home() {
             {/* Fiverr */}
             <div class="mb-6">
               <h3 class="font-semibold text-gray-900 pb-1  hover:text-black">
-                <a href="https://www.fiverr.com/">Fiverr</a>
+                <a href="https://www.fiverr.com/">Fiverr | Upwork</a>
               </h3>
               <p class="text-md text-gray-600 font-light">
                 Freelancer | Software Engineer{" "}
@@ -172,7 +183,7 @@ export default function Home() {
               <p class="text-md text-gray-600 font-light">
                 Software Engineer Intern{" "}
                 <span className="pl-12 text-sm italic">
-                  Oct 2018 - April 2019
+                  Feb 2018 - Jan 2021
                 </span>
               </p>
             </div>
