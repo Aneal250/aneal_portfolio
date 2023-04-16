@@ -16,9 +16,9 @@ const Header = ({ blog }) => {
 
       <div class="flex-none pt-6 md:pt-1 md:flex-1 ">
         <h1 class="text-5xl text-gray-900 font-bold leading-tight hover:text-black">
-          <a aria-current="page" class="" href="/">
+          <Link aria-current="page" class="" href="/">
             Anaele Nnaemeka
-          </a>
+          </Link>
         </h1>
 
         <p class="text-gray-600">Frontend Software Engineer</p>
