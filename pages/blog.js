@@ -17,21 +17,21 @@ const blog = () => {
         </div>
         <div class=" text-lg text-gray-600 font-light  ">
           {/* Check out the Blogs */}
-          <Link href={`/123`}>
+          <Link href={`/closure-function`}>
             <div class="mb-6 hover:border hover:rounded-xl p-4  cursor-pointer">
               <div>
                 <h3 className="font-semibold text-gray-900 pb-1 hover:underline hover:text-black">
-                  Check Out things and Others
+                  A simple guide to help you understand closures in JavaScript
                 </h3>
                 <p>
-                  checking out things and every given technologies of life and
-                  other things that are better of given the scale.
+                  Closures in JavaScript are one of those concepts that many
+                  struggle to get their heads around....
                 </p>
               </div>
             </div>
           </Link>
 
-          <Link href={`/123`}>
+          {/* <Link href={`/123`}>
             <div class="mb-6 hover:border hover:rounded-xl p-4  cursor-pointer">
               <div>
                 <h3 className="font-semibold text-gray-900 pb-1 hover:underline hover:text-black">
@@ -43,7 +43,7 @@ const blog = () => {
                 </p>
               </div>
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
       <Footer />

@@ -83,7 +83,7 @@ const Footer = () => {
         </a>
         <a
           class="sc-VigVT kjCPS"
-          href="https://github.com/ryanfitzgerald"
+          href="mailto:anaelennaemeka@gmail.com"
           target="_blank"
           data-reactid="20"
         >

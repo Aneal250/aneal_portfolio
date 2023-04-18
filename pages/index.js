@@ -1,7 +1,5 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import Link from "next/link";
-import Svg from "@/components/Svg";
 import Layout from "@/components/layout";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -32,13 +30,16 @@ export default function Home() {
           <div class=" text-lg text-gray-600 font-light w-8/12 ">
             <div class="mb-6">
               <p className="text-justify">
-                Hi, I am a Software Engineer with extensive years of experience
-                in developing and building interactive web applications using
-                software Technologies such as HTML, CSS, JavaScript, React,
-                Redux, Nextjs, NodeJs, ExpressJs, CMS and MongoDB. I decompose
-                complex problems into logic and scalable UI components using
-                JavaScript and TypeScript frameworks to build cutting edge Web
-                Applications.
+                Hi, I specialize in building interactive web applications and
+                have extensive experience in HTML, CSS, and JavaScript.
+                Additionally, I am proficient in various JavaScript frameworks
+                and libraries including ReactJs, Redux, Next.js, Node.js,
+                Express.js, and CMS. I also have experience working with
+                MongoDB, SQL, and other cutting-edge database systems.. I
+                specialize in simplifying complex problems by breaking them down
+                into manageable pieces. My skills in writing reusable code and
+                building scalable products enable me to deliver high-quality
+                results.
               </p>
             </div>
           </div>
@@ -55,8 +56,7 @@ export default function Home() {
             <div class="mb-6">
               <h3 class="font-semibold text-gray-900 pb-1 ">Languages</h3>
               <p class="text-md text-gray-600 font-light">
-                JavaScript (ES6+), TypeScript, HTML5, CSS 3, SASS, Node.js,
-                Express.js, React, NextJs, GraphQL.
+                JavaScript (ES6+), TypeScript, HTML5 & CSS 3.
               </p>
             </div>
             <div class="mb-6">
@@ -64,9 +64,10 @@ export default function Home() {
                 Frameworks &amp; Tools
               </h3>
               <p class="text-md text-gray-600 font-light">
-                ReactJs, NextJs, Gatsby Tailwind CSS, Material-UI, Bootstrap
-                CSS, Vite, Chakra-UI, ExpressJs, Redux, NPM, Webpack, Firebase,
-                Strapi, Git & GitHub, Netlify, Vercel, Story book.
+                ReactJs, NextJs, Gatsby Tailwind CSS, Material-UI, Bootstrap,
+                SASS, Node.js, Express.js, React, NextJs, GraphQL, Vite,
+                Chakra-UI, ExpressJs, Redux, NPM, Webpack, Firebase, Strapi, Git
+                & GitHub, Netlify, Vercel, Story book.
               </p>
             </div>
             <div class="mb-6">
@@ -99,7 +100,9 @@ export default function Home() {
               </h3>
               <p class="text-md text-gray-600 font-light">
                 Frontend Engineer{" "}
-                <span className="pl-12 text-sm italic">March - Present</span>
+                <span className="pl-12 text-sm italic">
+                  March 2023 - Present
+                </span>
               </p>
               <hr className="mt-4" />
             </div>
@@ -123,9 +126,9 @@ export default function Home() {
                 <a href="https://www.xerdetech.com/">Xerde</a>
               </h3>
               <p class="text-md text-gray-600 font-light">
-                Software Engineer | Facilitator{" "}
+                Frontend Software Engineer{" "}
                 <span className="pl-12 text-sm italic">
-                  June 2022 - March 2023
+                  July 2022 - December 2023
                 </span>
               </p>
               <hr className="mt-4" />
@@ -137,9 +140,9 @@ export default function Home() {
                 <a href="https://hasob.com.ng/">Hasob</a>
               </h3>
               <p class="text-md text-gray-600 font-light">
-                Software Engineer | Facilitator{" "}
+                FullStack Software Engineer{" "}
                 <span className="pl-12 text-sm italic">
-                  Nov 2021 - March 2022
+                  Nov 2021 - September 2022
                 </span>
               </p>
               <hr className="mt-4" />
@@ -151,9 +154,9 @@ export default function Home() {
                 <a href="https://www.fiverr.com/">Fiverr | Upwork</a>
               </h3>
               <p class="text-md text-gray-600 font-light">
-                Freelancer | Software Engineer{" "}
+                FullStack Software Engineer{" "}
                 <span className="pl-12 text-sm italic">
-                  Jun 2019 - March 2022
+                  Jun 2019 - Feb 2022
                 </span>
               </p>
               <hr className="mt-4" />
@@ -167,7 +170,7 @@ export default function Home() {
               <p class="text-md text-gray-600 font-light">
                 Software Engineer{" "}
                 <span className="pl-12 text-sm italic">
-                  May 2021 - Oct 2021
+                  Feb 2021 - September 2021
                 </span>
               </p>
               <hr className="mt-4" />
@@ -199,27 +202,40 @@ export default function Home() {
           </div>
           <div class=" text-lg text-gray-600 font-light  w-8/12 ">
             <div class="mb-6">
-              <h3 class="font-semibold text-gray-900 pb-1 hover:underline hover:text-black">
-                <a href="https://www.nexthandle.com/">Nexthandle</a>
+              <h3 class="font-semibold text-gray-900 pb-1  hover:text-black">
+                <a href="https://www.nexthandle.com/">
+                  Nexthandle
+                  <span>
+                    <img src="/img/link.png" className="w-4 h-4 inline mx-2" />
+                  </span>
+                </a>
               </h3>
               <p class="text-md text-gray-600 font-light">
-                This a tour Application where one can easily go Checkout the
-                Places he or she has visited or ben
+                Nigeria’s No 1 online marketleader for certified used gadgets
+              </p>
+            </div>
+
+            <div class="mb-6">
+              <h3 class="font-semibold text-gray-900 pb-1  hover:text-black">
+                <a href="https://tinqpay-web.vercel.app/">
+                  TinqPay
+                  <span>
+                    <img src="/img/link.png" className="w-4 h-4 inline mx-2" />
+                  </span>
+                </a>
+              </h3>
+              <p class="text-md text-gray-600 font-light">
+                TinqLab is a online crypto Platform, for trading cryto
+                currencies.
               </p>
             </div>
             <div class="mb-6">
-              <h3 class="font-semibold text-gray-900 pb-1 hover:underline hover:text-black">
-                <a href="#">Tour Application</a>
-              </h3>
-              <p class="text-md text-gray-600 font-light">
-                This a tour Application where one can easily go Checkout the
-                Places he or she has visited or ben
-              </p>
-            </div>
-            <div class="mb-6">
-              <h3 class="font-semibold text-gray-900 pb-1 hover:underline hover:text-black">
+              <h3 class="font-semibold text-gray-900 pb-1  hover:text-black">
                 <a href="https://mini-ecomerce-platform.vercel.app/">
                   Mini e-commerce Appliction
+                  <span>
+                    <img src="/img/link.png" className="w-4 h-4 inline mx-2" />
+                  </span>
                 </a>
               </h3>
               <p class="text-md text-gray-600 font-light">
